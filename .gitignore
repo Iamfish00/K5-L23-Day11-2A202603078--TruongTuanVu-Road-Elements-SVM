@@ -7,3 +7,10 @@ submissions/
 out/
 *.zip
 .env
+day11-data/
+day11-submit-*/
+r[0-9]*/
+minhchung/*
+!minhchung/04-xml-lane.png
+!/truongtuanvu-front.zip
+!/truongtuanvu-fisheye.zip

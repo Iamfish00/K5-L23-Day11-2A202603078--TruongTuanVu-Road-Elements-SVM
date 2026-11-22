@@ -1,0 +1,49 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "truongtuanvu",
+  "revision": 3,
+  "created_at": "2026-11-22T13:32:46+00:00",
+  "files": [
+    {
+      "file": "truongtuanvu-front.zip",
+      "bytes": 10677,
+      "sha256": "f9808b2a9ede794f76f2928a145f0387c72b6074d834bcad71d6946af6bba59c",
+      "contains_images": false,
+      "images": 16,
+      "images_unlabelled": 0,
+      "images_all_tags": 16,
+      "shapes_by_label": {
+        "crosswalk": 9,
+        "drivable": 34,
+        "lane": 44,
+        "road_curb": 23,
+        "traffic_light": 38,
+        "traffic_sign": 32
+      }
+    },
+    {
+      "file": "truongtuanvu-fisheye.zip",
+      "bytes": 7263,
+      "sha256": "ae1d5a0c64b744aaead79104f453de5bcb513b4b8d6803fb462b12b701621bd2",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 13,
+        "drivable": 13,
+        "lane": 7,
+        "road_curb": 19,
+        "traffic_light": 7,
+        "traffic_sign": 13
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 7,
+    "chính": 7,
+    "nhẹ": 0
+  }
+}
